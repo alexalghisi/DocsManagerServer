@@ -16,6 +16,7 @@ router.get('/docs', docs.findDocs);
 /* GET doc details. */
 router.get('/docs/:docID', docs.findDoc);
 
+router.post('/docs/add', docs.addDoc);
 
 
 module.exports = router;
